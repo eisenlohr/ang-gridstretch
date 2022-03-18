@@ -40,7 +40,7 @@ grid_info = dict(square = {'label': 'SqrGrid',
                         'threshold': 1},
                 )
 
-parser = argparse.ArgumentParser(description='regrid and stretch orientation imaging maps')
+parser = argparse.ArgumentParser(description='regrid and stretch orientation imaging maps in ANG format (TSL/EDAX).')
 parser.add_argument('--grid',default='hex',choices=['hex','square'],
                     help='output grid type')
 parser.add_argument('--resolution',type=float,
